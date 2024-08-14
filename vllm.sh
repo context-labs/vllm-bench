@@ -16,5 +16,5 @@ sudo docker run \
     --ipc=host \
     vllm/vllm-openai:latest \
     --gpu-memory-utilization 0.99 \
-    --model neuralmagic/Meta-Llama-3.1-70B-Instruct-FP8
+    --model neuralmagic/Meta-Llama-3.1-70B-Instruct-FP8 \
     --max_model_len 7456
