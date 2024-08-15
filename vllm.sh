@@ -15,7 +15,7 @@ sudo docker run \
     -p 8000:8000 \
     --ipc=host \
     vllm/vllm-openai:latest \
-    --gpu-memory-utilization 0.99 \
+    --gpu-memory-utilization 0.45 \
     --model neuralmagic/Meta-Llama-3.1-8B-Instruct-FP8 \
     --max-num-seqs 1024 \
     --max-num-batched-tokens 1024
