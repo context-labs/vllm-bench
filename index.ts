@@ -242,7 +242,7 @@ async function mainStream(
             content: prompt,
           },
         ],
-        model: "neuralmagic/Meta-Llama-3.1-70B-Instruct-FP8",
+        model: "neuralmagic/Meta-Llama-3.1-8B-Instruct-FP8",
         stream: true,
       },
       {
